@@ -32,4 +32,5 @@
         <li class="next"><a href="/{{ page_obj.next_page_number }}/">Next Page</a></li>
         {% endif %}
         </ul>
+        <a href="/feeds/posts/category/{{ category.slug }}/">RSS feed for category {{ category.name }}</a>
     {% endblock %}
