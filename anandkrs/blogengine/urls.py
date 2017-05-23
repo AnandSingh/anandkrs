@@ -26,4 +26,7 @@ urlpatterns = [
     # Post RSS feed
     url(r'^feeds/posts/$', PostsFeed()),
 
+    # Category RSS feed
+    url(r'^feeds/posts/category/(?P<slug>[a-zA-Z0-9-]+)/?$', CategoryPostsFeed()),
+
 ]
