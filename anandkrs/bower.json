@@ -1,0 +1,22 @@
+{
+  "name": "Anand Singh",
+  "authors": [
+    "Anand Singh email@anandkrs.com"
+  ],
+  "description": "coding adventure",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "blogengine/static/bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "html5-boilerplate": "^5.3.0"
+  }
+}
