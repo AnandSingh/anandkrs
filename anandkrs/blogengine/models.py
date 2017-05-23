@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.sites.models import Site
 
 # Create your models here.
 # Create your models here.
@@ -7,6 +8,7 @@ class Post(models.Model):
     pub_date = models.DateTimeField()
     text = models.TextField()
     slug = models.SlugField(max_length=40, unique=True)
+    site = models.ForeignKey(Site)
 
     def get_absolute_url(self):
         return "/%s/%s/%s/" % (self.pub_date.year, self.pub_date.month, self.slug)
