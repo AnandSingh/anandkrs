@@ -1,6 +1,6 @@
 """ Personal blog for anandkrs.com
 
-Install the virtualenv and activet the venv
+Install the virtualenv and activate the venv
  $ pip install virtualenv
  $ cd myproject/
  $ virtualenv venv
@@ -11,6 +11,9 @@ Install the virtualenv and activet the venv
 
 If you want your virtualenv to also inherit globally installed packages
  $ virtual venv --system-site-packages
+
+Install the project dependencies
+ $ pip install -r requirements.rxt
 
 Acitivate the venv
  $ source venv/bin/activate
