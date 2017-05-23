@@ -18,3 +18,6 @@ Install the project dependencies
 Acitivate the venv
  $ source venv/bin/activate
  https://simpleisbetterthancomplex.com/tutorial/2016/07/26/how-to-reset-migrations.html
+
+ Running our tests
+ $ python manage.py jenkins --enable-coverage
