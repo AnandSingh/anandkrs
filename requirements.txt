@@ -17,6 +17,7 @@ mccabe==0.6.1
 packaging==16.8
 psycopg2==2.7.1
 Pygments==2.2.0
+pygments-style-solarized==0.1.1
 pylint==1.7.1
 pyparsing==2.2.0
 pytz==2017.2
