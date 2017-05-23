@@ -2,3 +2,5 @@ venv/
 *.pyc
 db.sqlite3
 anandkrs/blogengine/static/bower_components/
+reports/
+htmlcov/
