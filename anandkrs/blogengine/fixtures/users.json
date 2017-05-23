@@ -1,0 +1,20 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$03Y50M8L4bmJ$LxuUjIXcamrc7jgn0W2OR2RJWgk5Zm7b18EAJLRsiuU=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "anand",
+    "first_name": "",
+    "last_name": "",
+    "email": "email@anandkrs.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-05-22T23:52:41.995Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
